@@ -16,7 +16,6 @@ function countDown() {
     const christmasDay = new Date(christmas);
     const currentDate = new Date();
     const totalSeconds = (christmasDay-currentDate) / 1000;
-
  
         const days = Math.floor(totalSeconds / 3600 / 24);
         const hours = Math.floor(totalSeconds / 3600) % 24;
